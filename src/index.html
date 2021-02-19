@@ -1,0 +1,84 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<nav id="navbar">
+  <header>Git Documentation Page</header>
+  <ul>
+    <li><a href="#Getting_Started" class="nav-link">Getting Started</a></li>
+    <li><a href="#About_Version_Control" class="nav-link">About Version Control</a></li>
+    <li><a href="#A_Short_History_of_Git" class="nav-link">A Short History of Git</a></li>
+    <li><a href="#Installing_Git" class="nav-link">Installing Git</a></li>
+    <li><a href="#Reference" class="nav-link">Reference</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Getting_Started">
+    <header id="header">Getting Started</header>
+    <article>
+    <p>This documentation will be about getting started with Git. We will begin by explaining some background on version control tools, then move on to how to get Git running on your system and finally how to get it set up to start working with. At the end of this, you should understand why Git is around, why you should use it and you should be all set up to do so.</p>
+    </article> 
+  </section>
+  
+  <section class="main-section" id="About_Version_Control">
+    <header>About Version Control</header>
+    <article>
+    <p>What is “version control”, and why should you care? Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. For the examples in this book, you will use software source code as the files being version controlled, though in reality you can do this with nearly any type of file on a computer.</p>
+    <p>If you are a graphic or web designer and want to keep every version of an image or layout (which you would most certainly want to), a Version Control System (VCS) is a very wise thing to use. It allows you to revert selected files back to a previous state, revert the entire project back to a previous state, compare changes over time, see who last modified something that might be causing a problem, who introduced an issue and when, and more. Using a VCS also generally means that if you screw things up or lose files, you can easily recover. In addition, you get all this for very little overhead. There are three types of version control system:
+    <ul>
+      <li>Local Version Control Systems</li>
+      <li>Centralized Version Control Systems</li>
+      <li>Distributed Version Control Systems</li>
+    </ul></p>
+    </article>
+  </section>
+  
+  <section class="main-section" id="A_Short_History_of_Git">
+    <header>A Short History of Git</header>
+    <article>
+    <p>As with many great things in life, Git began with a bit of creative destruction and fiery controversy.</p>
+    <p>The Linux kernel is an open source software project of fairly large scope. For most of the lifetime of the Linux kernel maintenance (1991–2002), changes to the software were passed around as patches and archived files. In 2002, the Linux kernel project began using a proprietary DVCS called BitKeeper.</p>
+    <p>In 2005, the relationship between the community that developed the Linux kernel and the commercial company that developed BitKeeper broke down, and the tool’s free-of-charge status was revoked. This prompted the Linux development community (and in particular Linus Torvalds, the creator of Linux) to develop their own tool based on some of the lessons they learned while using BitKeeper. Some of the goals of the new system were as follows:
+    <ul>
+      <li>Speed</li>
+      <li>Simple design</li>
+      <li>Strong support for non-linear development (thousands of parallel branches)</li>
+      <li>Fully distributed</li>
+      <li>Able to handle large projects like the Linux kernel efficiently (speed and data size)</li>
+    </ul>
+    </p>
+    <p>Since its birth in 2005, Git has evolved and matured to be easy to use and yet retain these initial qualities. It’s amazingly fast, it’s very efficient with large projects, and it has an incredible branching system for non-linear development (See <a href="https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell" target="_blank">Git Branching</a>).</p>
+    </article>
+  </section>
+  
+  <section class="main-section" id="Installing_Git">
+    <header>Installing Git</header>
+    <article>
+      <p>If you want to install the basic Git tools on Linux via a binary installer, you can generally do so through the package management tool that comes with your distribution. If you’re on Fedora (or any closely-related RPM-based distribution, such as RHEL or CentOS), you can use <code>dnf</code>:<code class="new_line">$ sudo dnf install git-all</code>
+      </p>
+      <p>If you’re on a Debian-based distribution, such as Ubuntu, try <code>apt</code>:<code class="new_line">$ sudo apt install git-all</code></p>
+      <p>For more options, there are instructions for installing on several different Unix distributions on the Git website, at <a href="https://git-scm.com/download/linux" target="_blank">https://git-scm.com/download/linux.</a></p> 
+      <p>There are several ways to install Git on a Mac. The easiest is probably to install the Xcode Command Line Tools. On Mavericks (10.9) or above you can do this simply by trying to run git from the Terminal the very first time.<code class="new_line">$ git --version</code>
+        
+      </p>
+    </article>
+  </section>
+  
+  <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+      <ul>
+        <li>
+          All the documentation in this page is taken from <a href="https://git-scm.com/book/en/v2" target="_blank"> Pro Git book</a>
+        </li>
+      </u>
+    </article>
+    
+  </section>
+  <!--
+  <section class="main-section" id="A_Short_History_of_Git">
+    <header>A Short History of Git</header>
+    <article>
+      <p></p>
+    </article>
+    
+  </section>
+-->
+</main>

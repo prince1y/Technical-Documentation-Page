@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+body{
+  background-color: #f0efe7;
+  font-family: Inconsolata, serif;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 500px) { 
+  body {
+    grid-template-cloumns: 1fr;
+    grid-template-rows: 1fr auto;
+  }
+}
+
+header{
+  font-size: 1.8em;
+  font-weight: thick;
+  text-align: center;
+}
+
+#navbar{
+  position: fixed;
+  top: 0;
+  left: 100px;
+  width: 300px;
+  min-width: 290px;
+  height: 100%;
+  /*border-right: solid;
+  border-color: #df9fbf*/
+}
+
+#main-doc{
+  position: absolute;
+  margin-left: 420px;
+  background-color: white;
+  width: 50%;
+  border-radius: 10px;
+  border: 1px solid #b8b894;
+  padding: 30px;
+}
+
+code{
+  diplsay: inline;
+  background-color: #f7f7f7;
+}
+
+.new_line{
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+#main-doc header{
+  color: red;
+}
