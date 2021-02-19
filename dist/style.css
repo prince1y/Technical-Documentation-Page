@@ -1,25 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
 
-body{
+body {
   background-color: #f0efe7;
   font-family: Inconsolata, serif;
   line-height: 1.6;
 }
 
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 500px) {
   body {
-    grid-template-cloumns: 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr auto;
   }
 }
 
-header{
+header {
   font-size: 1.8em;
   font-weight: thick;
   text-align: center;
 }
 
-#navbar{
+#navbar {
   position: fixed;
   top: 0;
   left: 100px;
@@ -30,7 +30,7 @@ header{
   border-color: #df9fbf*/
 }
 
-#main-doc{
+#main-doc {
   position: absolute;
   margin-left: 420px;
   background-color: white;
@@ -40,12 +40,12 @@ header{
   padding: 30px;
 }
 
-code{
-  diplsay: inline;
+code {
+  display: inline;
   background-color: #f7f7f7;
 }
 
-.new_line{
+.new_line {
   display: block;
   text-align: left;
   white-space: pre-line;
@@ -58,6 +58,6 @@ code{
   border-radius: 5px;
 }
 
-#main-doc header{
+#main-doc header {
   color: red;
 }
